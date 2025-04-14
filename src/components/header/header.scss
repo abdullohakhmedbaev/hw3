@@ -1,0 +1,26 @@
+.home__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 26px 0;
+
+    .links{
+        display: flex;
+        gap: 40px;
+
+        li{
+            list-style: none;
+            a{
+                color: #fff;
+                text-decoration: none;
+                transition: .3s all;
+                
+                &:hover{
+                    color: #118DA8;
+
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border-radius: 32px;
+    padding: 60px;
+    margin: 100px 50px;
+
+    &-description{
+        p{
+            color: #118DA8;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+        }
+        h2{
+            width: 430px;
+            font-size: 72px;
+            font-weight: 400;
+            line-height: 80px;
+            letter-spacing: 3px;
+            margin-bottom: 57px;
+        }
+    }
+
+    &-form{
+        input{
+            width: 100%;
+            background-color: #191919;
+            color: #FFFFFFB2;
+            border-radius: 6px;
+            outline: none;
+            border: 1px solid #191919;
+            padding: 27px 19px;
+            margin-bottom: 20px;
+        }
+    }
+}

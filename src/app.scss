@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans';
+    background-color: #191919;
+    color: #FFFFFF;
+}
+
+.container{
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button{
+    border: 1px solid transparent;
+    background-color: #118DA8;
+    color: #fff;
+    font-size: 17px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: .3s all;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid #118DA8;
+}
+
+@media screen and (max-width: 1350px) {
+    .container{
+        padding: 0 50px;
+    }
+}
